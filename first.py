@@ -11,14 +11,7 @@ print(f"年龄: {age} ")
 print(f"身高: {height}")
 print(f"考试成绩: {examscores} ")
 
-age += 2
-print(f"年龄增加2岁后: {age}")
 
-agestr = str(age)
-print(f"年龄转换为字符串: {agestr} (类型: {type(agestr)})")
-
-ageint = int(agestr)
-print(f"字符串转换回整数: {ageint} (类型: {type(ageint)})")
 
 heightrounded = round(height, 1)
 print(f"身高保留1位小数: {heightrounded}")
