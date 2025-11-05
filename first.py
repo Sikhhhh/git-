@@ -11,11 +11,6 @@ print(f"年龄: {age} ")
 print(f"身高: {height}")
 print(f"考试成绩: {examscores} ")
 
-
-
-heightrounded = round(height, 1)
-print(f"身高保留1位小数: {heightrounded}")
-
 averagescore = sum(examscores) / len(examscores)
 print(f"考试平均分: {averagescore:.1f}")
 
